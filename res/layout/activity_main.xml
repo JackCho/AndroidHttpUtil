@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/native_get_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="不带参数Get" />
+
+        <Button
+            android:id="@+id/native_get_btn_with_query"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="带参数Get" />
+        <Button
+            android:id="@+id/native_post_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Post" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hello_world" />
+    </ScrollView>
+
+</LinearLayout>
